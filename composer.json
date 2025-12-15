@@ -1,0 +1,24 @@
+{
+  "name": "notiboost/php-sdk",
+  "description": "Official PHP SDK for NotiBoost - Notification Orchestration Platform",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "NotiBoost",
+      "email": "support@notiboost.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "NotiBoost\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true
+}
+
